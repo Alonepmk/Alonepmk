@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div class="jumbotron text-center" style="margin-bottom: 0">
-		<p>Footer</p>
+<div id="footer" class="jumbotron text-center">
+		Footer
 </div>
 </body>
 </html>
