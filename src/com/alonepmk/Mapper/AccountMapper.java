@@ -44,4 +44,10 @@ public interface AccountMapper
 
     @Update("update account set confirmation=#{i} where email=#{email}")
     public void setConfirmCode(@Param("i") int i,@Param("email") String email);
+
+    @Select("select "
+    		+ New_Account_Field
+    		+ ",CONCAT(firstName,' ',lastName) as fullName "
+    		+" from account where role='u'")
+	public List<Account> getAllUserAccount();
 }

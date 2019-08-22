@@ -65,4 +65,8 @@ public class AccountManager
     {
         accountMapper.setConfirmCode(i, email);
     }
+
+	public List<Account> getAllUserAccount() {
+		return accountMapper.getAllUserAccount();
+	}
 }

@@ -12,7 +12,8 @@ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/
    <servlet>
       <servlet-name>rest</servlet-name>
       <servlet-class>
-        org.springframework.web.servlet.DispatcherServlet
+      		com.alonepmk.Domain.ApplicationServlet
+       <!--  org.springframework.web.servlet.DispatcherServlet -->
       </servlet-class>
       <load-on-startup>1</load-on-startup>
    </servlet>

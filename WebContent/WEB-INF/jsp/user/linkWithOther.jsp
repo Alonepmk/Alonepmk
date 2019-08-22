@@ -15,6 +15,8 @@
 <script type="text/javascript" src="../resources/js/domain.js"></script>
 <script type="text/javascript" src="../resources/js/logout.js"></script>
 <script type="text/javascript" src="../resources/js/session.js"></script>
+<link rel="stylesheet" href="../DataTables/datatables.min.css">
+<script type="text/javascript" src="../DataTables/datatables.min.js"></script>
 
 <link rel="stylesheet" href="../resources/assets/css/style.css">
 <title>Link With Other</title>

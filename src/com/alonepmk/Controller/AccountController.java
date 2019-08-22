@@ -41,4 +41,11 @@ public class AccountController
     {
         return accountManager.getAccount(id);
     }
+    
+    @RequestMapping(value = "/getAllUserAccount", method = RequestMethod.GET)
+    public List<Account> getAllUserAccount(){
+    	List<Account> acc = null;
+    	
+    	return accountManager.getAllUserAccount();
+    }
 }

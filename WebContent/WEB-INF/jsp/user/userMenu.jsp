@@ -12,6 +12,7 @@
 		<div class="list-group list-group-flush">
 			<a href="userHome.html" class="list-group-item list-group-item-action bg-light">Profile</a>
 			<a href="linkWithOther.html" class="list-group-item list-group-item-action bg-light">Link With Other</a>
+			<a href="realTimeComment.html" class="list-group-item list-group-item-action bg-light">Real Time Comment</a>
 		</div>
 	</div>
 

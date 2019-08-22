@@ -15,7 +15,10 @@ public class Account
     private String password;
     private int emailConfirmCode;
     private int confirmation;
-
+    //Above are Mandatory
+    
+    private String fullName;
+    
     public Account()
     {
     }
@@ -129,4 +132,13 @@ public class Account
     {
         this.confirmation = confirmation;
     }
+
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+    
 }
